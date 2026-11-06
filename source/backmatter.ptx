@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains all of the "backmatter" material -->
+<!-- In comments, we show examples of how to have hints to divisional -->
+<!-- excercies appear in a section, and then their -->
+<!-- solutions in the next. Then there is an appendix -->
+<!-- with all notation generated, and finally the index. -->
+<backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
+  <title>Backmatter</title>
+
+  <!-- <solutions divisional="hint"> <title>Selected Hints</title> </solutions> -->
+
+  <!-- <solutions divisional="solution"> <title>Selected Solutions</title> </solutions> -->
+
+  <!-- <appendix> <title>List of Symbols</title> <notation-list/> </appendix> -->
+
+  <!-- <index> <title>Index</title> <index-list/> </index> -->
+
+  <appendix> <title>Formulaire</title>
+
+    <p>
+      Centile de rang R :
+      <me>k=(n-1)\dfrac{R}{100}+1\qquad C_R=x_{\lfloor k\rfloor}+(k-\lfloor k\rfloor)(x_{\lfloor k\rfloor +1}-x_{\lfloor k\rfloor})</me>
+    </p>  
+  
+  </appendix>
+
+  <colophon>
+    <p> Ce livre a été écrit avec <pretext />. </p>
+  </colophon>
+</backmatter>
+
