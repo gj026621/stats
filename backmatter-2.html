@@ -126,16 +126,16 @@ eBookConfig.enable_chatcodes =  false;
 \)</span></div>
 <div class="ptx-page">
 <div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Table des matières" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Pages Liminaires</span></a></div></li>
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Chapter Title</span></a></div>
+<div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Statistiques descriptives</span></a></div>
 <ul id="ptx-toc-group-ch-chapter-title" class="structural toc-item-list">
 <li class="toc-item toc-introduction"><div class="toc-title-box"><a href="ch-chapter-title-2.html" class="internal"><span class="title">Introduction</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-name.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Section Title</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter contains-active">
-<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
 <ul class="structural toc-item-list contains-active" id="ptx-toc-group-backmatter">
 <li class="toc-item toc-appendix active"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="codenumber">A.</span> <span class="title">Formulaire</span></a></div></li>
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
@@ -148,13 +148,40 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Appendice</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">A.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Formulaire</span>
 </h1>
 <div class="para logical" id="backmatter-2-2">
-<div class="para">Centile de rang R :</div>
+<div class="para">Moyenne :</div>
 <div class="displaymath process-math" id="backmatter-2-2-1">
 \begin{equation*}
-k=(n-1)\dfrac{R}{100}+1\qquad C_R=x_{\lfloor k\rfloor}+(k-\lfloor k\rfloor)(x_{\lfloor k\rfloor +1}-x_{\lfloor k\rfloor})
+\overline{x}=\dfrac{\sum_{i=1}^nx_i}{n}=\dfrac{x_1+x_2+\cdots+x_n}{n}
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphe"><a tabindex="-1" href="#backmatter-2-2" title="Copy heading and permalink for Paragraphe" aria-label="Copy heading and permalink for Paragraphe">🔗</a></div>
+</div>
+<div class="para logical" id="backmatter-2-3">
+<div class="para">Coefficient de variation :</div>
+<div class="displaymath process-math" id="backmatter-2-3-1">
+\begin{equation*}
+CV=\dfrac{s}{\overline{x}}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphe"><a tabindex="-1" href="#backmatter-2-3" title="Copy heading and permalink for Paragraphe" aria-label="Copy heading and permalink for Paragraphe">🔗</a></div>
+</div>
+<div class="para logical" id="backmatter-2-4">
+<div class="para">Écart-type :</div>
+<div class="displaymath process-math" id="backmatter-2-4-1">
+\begin{equation*}
+s=\sqrt{\dfrac{\sum_{i=1}^n(x_i-\overline{x})^2}{n-1}}
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphe"><a tabindex="-1" href="#backmatter-2-4" title="Copy heading and permalink for Paragraphe" aria-label="Copy heading and permalink for Paragraphe">🔗</a></div>
+</div>
+<div class="para logical" id="backmatter-2-5">
+<div class="para">Centile de rang R :</div>
+<div class="displaymath process-math" id="backmatter-2-5-1">
+\begin{equation*}
+k=(n-1)\dfrac{R}{100}+1\qquad C_R=x_{\lfloor k\rfloor}+(k-\lfloor k\rfloor)\left(x_{\lfloor k\rfloor +1}-x_{\lfloor k\rfloor}\right)
+\end{equation*}
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphe"><a tabindex="-1" href="#backmatter-2-5" title="Copy heading and permalink for Paragraphe" aria-label="Copy heading and permalink for Paragraphe">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Appendice A: Formulaire"><a tabindex="-1" href="#backmatter-2" title="Copy heading and permalink for Appendice A: Formulaire" aria-label="Copy heading and permalink for Appendice A: Formulaire">🔗</a></div>
 </section>

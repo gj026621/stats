@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Appendice",
   "number": "A",
   "title": "Formulaire",
-  "body": " Formulaire  Centile de rang R :   "
+  "body": " Formulaire  Moyenne :   Coefficient de variation :   Écart-type :   Centile de rang R :   "
 },
 {
   "id": "backmatter-3",
